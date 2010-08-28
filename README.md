@@ -1,14 +1,13 @@
 Ruby.ee sisu 
 ============
 
-Hetkel kasutame lehe halduseks Staticmatic [1] generaatorit.
-Railsi taustaga inimestele on ülesehitus väga sarnane juba
-kõigile tuttavate elementidega nagu layouts, pages, partials jne.
+Hetkel kasutame lehe halduseks staticmatic.rubyforge.org
+staatilist generaatorit.
 
-Igatahes tee kloon rubyee [2] hoidlast, lisa oma täiendused ja
-anna githubis märku nende sisse toomisest.
+Sisu ülesehitus on Railsi taustaga inimestele tuttavalt
+sarnane elementidega nagu layouts, pages, partials jne.
+
+Igatahes tee kloon github.com/priit/rubyee hoidlast, lisa oma täiendused ja
+anna githubis märku nende valmisolekust sisse toomisest.
 
 Tänud!
-
-* [1] http://staticmatic.rubyforge.org
-* [2] http://github.com/priit/rubyee
