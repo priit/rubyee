@@ -1,0 +1,37 @@
+!!! 5
+%html
+  %head
+    %meta{:charset => "UTF-8"}
+    %title= @title.nil? ? 'Eesti Ruby Selts' : "#{@title} :: Eesti Ruby Selts"
+    = stylesheets
+
+  %body
+    #container
+      #header
+        #nav
+          = link_to 'Inimesed', '/inimesed'
+          = link_to 'Firmad', '/firmad'
+        #bg
+
+      #main
+        #content
+          #logo
+            = link img('ruby.png'), '/'
+            %h1= link 'Eesti Ruby Selts', '/'
+            %span gem install ruby-fän...
+          = yield
+
+        #aside
+          #main-image
+            = img 'lady.jpg'
+          .sidebar
+            %h3 Millega tegu?
+            %p Oleme Ruby programmeerimiskeele kasutajad ja entusiastid. Paljud meie hulgast on täiskohaga ruby programmeerijad. 
+
+            %h3 Suhtluskanalid
+            .suhtlus
+              = partial 'suhtluskanalid'
+
+      #footer
+        Design by:
+        = link 'Pet Medicine', 'http://www.medicine-pet.com'
