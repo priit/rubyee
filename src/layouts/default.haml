@@ -10,15 +10,16 @@
       #header
         #nav
           = link_to 'Inimesed', '/inimesed'
+          |
           = link_to 'Firmad', '/firmad'
         #bg
+        #logo
+          = link img('ruby.png'), '/'
+          %h1= link 'Eesti Ruby Selts', '/'
+          %span gem install ruby-fän...
 
       #main
         #content
-          #logo
-            = link img('ruby.png'), '/'
-            %h1= link 'Eesti Ruby Selts', '/'
-            %span gem install ruby-fän...
           = yield
 
         #aside
@@ -26,12 +27,15 @@
             = img 'lady.jpg'
           .sidebar
             %h3 Millega tegu?
-            %p Oleme Ruby programmeerimiskeele kasutajad ja entusiastid. Paljud meie hulgast on täiskohaga ruby programmeerijad. 
+            %p 
+              Oleme Ruby programmeerimiskeele kasutajad ja entusiastid. 
+              \ Paljud meie hulgast on täiskohaga ruby programmeerijad. 
 
             %h3 Suhtluskanalid
             .suhtlus
               = partial 'suhtluskanalid'
 
       #footer
-        Design by:
-        = link 'Pet Medicine', 'http://www.medicine-pet.com'
+        %p
+          = "Generated with #{link 'Staticmatic', 'http://staticmatic.rubyforge.org/'} "
+          = "and the design is from #{link 'Pet Template', 'http://www.oswd.org/design/preview/id/3468'}"
