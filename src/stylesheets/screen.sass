@@ -5,6 +5,7 @@ $green: #8eac1a
 $blue: rgb(187, 239, 218)
 $lightblue: rgb(221,247, 237)
 $headerfont: Museo500, Helvetica, Arial, sans-serif
+$rsscolor: #e67e2e
 
 body
   font: normal 12px / 1.6em Helvetica, Arial, sans-serif
@@ -68,6 +69,13 @@ ul
     &:hover
       color: $green
       text-decoration: none
+    
+    .iconic
+      color: $lightgrey
+      
+    &:hover
+      .iconic
+        color: $green
 
 #footer
   border-top: 1px dotted $lightgrey
@@ -139,12 +147,15 @@ ul
         color: $green
 
       &.feed
-        color: #999
-        font-size: 11px
+        color: $rsscolor
+        font-size: 14px
         font-weight: bold
         padding: 1px 4px
         &:hover
-          color: $green
+          color: $rsscolor
+      
+      .iconic
+        font-size: 14px
   
   ul
     margin: 0
