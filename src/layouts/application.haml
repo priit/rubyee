@@ -1,0 +1,31 @@
+!!! 5
+%html{:lang => 'et'}
+  %head
+    %meta{:charset => "UTF-8"}
+    %title= @title.nil? ? 'Rubyest' : "#{@title} • Rubyest"
+    %meta{:name => 'description', :content => 'Oleme Ruby programmeerimiskeele kasutajad ja entusiastid Eestis.'}
+    
+    = stylesheets
+
+  %body
+    #topline
+    #container
+      #header
+        #nav
+          = link_to 'Inimesed', '/inimesed'
+          = link_to 'Firmad', '/firmad'
+          = link_to 'Info', '/info'
+        #logo
+          = link_to 'Rubyest', '/', :id => :rubyest
+
+      #main
+        #content
+          = yield
+
+      #footer
+        %p
+          powered by nginx
+          • generated with
+          = link_to 'staticmatic', 'http://staticmatic.rubyforge.org'
+          • design by
+          = link_to 'fraktal', 'http://www.fraktal.ee'

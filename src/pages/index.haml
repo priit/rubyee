@@ -1,31 +1,32 @@
-.box
-  %h1 Uus Ruby leht  
+.clearfix
+
+#top.front
+  %h1 Eesti Ruby Arendajad
+
+  %p
+    Oleme <b>Ruby programmeerimiskeele</b> kasutajad ja entusiastid Eestis. Ühe mütsi alla on koondunud kaheksateist
+    arendajat kaheksast ettevõttest.
+  
+.clearfix
+
+#news
+
+  %h2 Uus Ruby leht
+  
   %p 
-    Rõõm on teatad, et oleme ringiga tagasi staatilise lehe juures ning
+    Rõõm on teatada, et oleme ringiga tagasi staatilise lehe juures ning
     kasutame suht lahedat ruby 
     <a href='http://staticmatic.rubyforge.org'>Staticmatic</a> generaatorit.
-
+  
   %p
     Ruby on tänapäeval tugevalt populaarsust võitnud ning 
     kasutajate arv kasvamas jõudsalt. Seega on tekkinud vajadus luua 
     parem ülevaade Eesti tegijatest ja firmadest. Selleks sai loodud lehed
     nagu <a href='/inimesed'>inimesed</a> ja <a href='/firmad'>firmad</a>,
     kuhu paneme kirja siis kõik aktiivsed tegijad. 
-
-  %p
-    Uued inimesed on alati oodatud olenemata kas oled algaja või juba profesionaal. <b>Tere tulemast!</b>
-
-
-%h2 Kuidas uuendada ruby.ee lehte?
-%p
-  = img 'dog.jpg', :class => 'image'
-  Kogu lehe sisu asub githubi <a href='http://github.com/priit/rubyee'>rubyee</a>
-  hoidlas. Loo kloon ja salvesta täiendused ning teavita githubis uuendustest.
-%p 
-  Lehe haldamiseks kasutame hetkel ruby <a href='http://staticmatic.rubyforge.org/'>Staticmatic</a>
-  generaatorit. Seega nii sisu kui ka visaalse disaini täienduste puhul on git clone sinu sõber.
   
-%p 
-  Ruby.ee on avatud ka suurematale muudatustele, ala oma foorum jne. Ainuke
-  tingimus, et kes käib idee välja, peab leidma jõudu ja tahet seda arendada, sest paljud meist on
-  tööga siiski väga hõivatud.
+  %p
+    Uued inimesed on alati oodatud olenemata kas oled algaja või juba profesionaal. Tere tulemast!
+
+.channels
+  = partial 'suhtluskanalid'
