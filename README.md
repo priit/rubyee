@@ -11,8 +11,3 @@ Igatahes tee kloon github.com/priit/rubyee hoidlast, lisa oma täiendused ja
 anna githubis märku nende valmisolekust.
 
 Tänud!
-
-
-=========
-
-Info Baltic IT Solutions firma kohta oli lisatud
