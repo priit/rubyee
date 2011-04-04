@@ -11,12 +11,15 @@
     #topline
     #container
       #header
+        #lang-nav
+          = link_to 'In English', '/en'
         #nav
+          = link_to '<span class="iconic">j</span> Seminar', '/seminar'
           = link_to '<span class="iconic">u</span> Inimesed', '/inimesed'
-          = link_to '<span class="iconic">!</span> Firmad', '/firmad'
           = link_to '<span class="iconic">i</span> Info', '/info'
         #logo
           = link_to 'Rubyest', '/', :id => :rubyest
+
 
       #main
         #content
@@ -24,8 +27,4 @@
 
       #footer
         %p
-          powered by nginx
-          • generated with
-          = link_to 'staticmatic', 'http://staticmatic.rubyforge.org'
-          • design by
-          = link_to 'fraktal', 'http://www.fraktal.ee'
+          powered by <a href='/info'>Rubyest</a>

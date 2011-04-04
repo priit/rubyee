@@ -4,28 +4,31 @@
   %h1 Eesti Ruby Arendajad
 
   %p
-    Oleme <b>Ruby programmeerimiskeele</b> kasutajad ja entusiastid Eestis. Ühe mütsi alla on koondunud kaheksateist
-    arendajat kümnest ettevõttest.
+    Oleme <b>Ruby programmeerimiskeele</b> kasutajad ja entusiastid Eestis. 
+    Ühe mütsi alla on koondunud kaheksateist arendajat kümnest ettevõttest.
 .clearfix
 
 #news
 
-  %h2 Uus Ruby leht
-  
-  %p 
-    Rõõm on teatada, et oleme ringiga tagasi staatilise lehe juures ning
-    kasutame suht lahedat ruby 
-    <a href='http://staticmatic.rubyforge.org'>Staticmatic</a> generaatorit.
-  
   %p
     Ruby on tänapäeval tugevalt populaarsust võitnud ning 
-    kasutajate arv kasvamas jõudsalt. Seega on tekkinud vajadus luua 
-    parem ülevaade Eesti tegijatest ja firmadest. Selleks sai loodud lehed
-    nagu <a href='/inimesed'>inimesed</a> ja <a href='/firmad'>firmad</a>,
-    kuhu paneme kirja siis kõik aktiivsed tegijad. 
+    kasutajate arv jõudsalt kasvamas. Rubyest eesmärk on aidata kaasa tegijate arengule, 
+    teadmiste vahetamisele ja ruby levikule. 
+
+  %h2 Rubyest seminarid
   
+  %p 
+    Rõõm on teatada, et korraldame iga kvartal ühe seminari 
+    koos pubiõhtuga, lähemalt palun loe
+    <a href='/seminar'>seminari infolehelt</a>.
+  
+  %h2 Rubyest on avatud
   %p
-    Uued inimesed on alati oodatud olenemata kas oled algaja või juba profesionaal. Tere tulemast!
+    Uued inimesed on alati oodatud olenemata kas oled algaja või 
+    juba profesionaal. 
+    %br
+    Ülevaate juba liitunud inimestest leiad
+    = link_to 'liikmete lehelt', '/inimesed'
 
 .channels
   = partial 'suhtluskanalid'
