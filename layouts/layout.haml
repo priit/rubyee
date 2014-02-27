@@ -1,0 +1,28 @@
+!!! 5
+%html{:lang => 'et'}
+  %head
+    %meta{:charset => "UTF-8"}
+    %title= current_page.data.title.nil? ? 'Rubyest' : "#{current_page.data.title} • Rubyest"
+    %meta{:name => 'description', :content => 'Oleme Ruby programmeerimiskeele kasutajad ja entusiastid Eestis.'}
+
+    = stylesheet_link_tag 'app'
+  %body
+    #topline
+    #container
+      #header
+        #lang-nav
+          = link_to 'In English', '/en'
+        #nav
+          = link_to 'Inimesed', '/inimesed'
+          = link_to 'Info', '/info'
+        #logo
+          = link_to 'Rubyest', '/', :id => :rubyest
+
+
+      #main
+        #content
+          = yield
+
+      #footer
+        %p
+          powered by <a href='/info'>Rubyest</a>
