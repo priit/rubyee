@@ -1,0 +1,164 @@
+---
+- name: Apprise
+  url: http://apprise.eu
+  people:
+  - name: Tanel Lebedev
+    url: http://twitter.com/_tanel
+
+- name: Baltic IT Solutions
+  url: http://bits.ee
+  people:
+  - name: Zahhar Kirillov
+    url: http://www.twitter.com/bits_ee
+  - name: Andrei Filimonov
+  - name: Dmitri Semirenko
+    url: http://www.twitter.com/semirenko
+
+- name: Bear Metal
+  url: https://bearmetal.eu
+  people:
+  - name: Erkki Eilonen
+    url: https://github.com/erkki
+  - name: Jarkko Laine
+    url: https://github.com/jarkko
+  - name: Lourens Naudé
+    url: https://github.com/methodmissing
+  - name: Tarmo Tänav
+    url: https://github.com/tarmo
+
+- name: Benuevo
+  url: http://benuevo.com
+  people:
+  - name: Oleg Shurõgin
+  - name: Vjatseslav Gedrovits
+    url: https://github.com/Gedrovits
+
+- name: Cannedapps
+  url: http://cannedapps.com
+  people:
+  - name: Kevin Valdek
+    url: http://www.kevinvaldek.com
+  - name: Anton Narusberg
+    url: http://www.twitter.com/antonnarusberg
+  - name: Kenneth Valdek
+
+- name: Clean Code
+  url: http://cleancode.co
+  people:
+  - name: Anton Kuzmin
+
+- name: Desk Rock
+  url: http://deskrock.ee
+  people:
+  - name: Janno Siilbek
+    url: http://www.linkedin.com/in/jannosiilbek
+  - name: Murdho Savila
+  - name: Stanislav Gorski
+    url: https://github.com/badmanski
+  - name: Heidi Taperson
+  - name: Andres Ivanov
+  - name: David Ochoa
+  - name: Mai-Liis Hütt
+
+- name: EENet
+  url: http://www.eenet.ee
+  people:
+  - name: Laas Toom
+    url: http://blog.laaz.org
+  - name: Ragnar Vutt
+- name: Folkia AS Eesti filiaal
+  url: https://www.monetti.ee/
+  people:
+  - name: Mihhail Sidorin
+    url: http://www.linkedin.com/in/mihhailsidorin
+- name: Fraktal
+  url: http://fraktal.ee
+  people:
+  - name: Priit Haamer
+    url: http://www.priithaamer.com/blog
+  - name: Tanel Jakobsoo
+    url: https://github.com/tanelj
+  - name: Mikk Pristavka
+    url: https://github.com/mikkpr
+
+- name: Freelancers
+  people:
+  - name: John W. Fail
+    url: http://www.icewhistle.com
+  - name: David Verhasselt
+    url: http://www.davidverhasselt.com
+
+- name: Gravitational Wave
+  url: http://wave.ee
+  people:
+  - name: Margus Pärt
+
+- name: GiTLAB
+  url: http://gitlab.eu
+  people:
+  - name: Andres Keskküla
+    url: https://github.com/kurjam
+  - name: Priit Tark
+    url: https://twitter.com/priit
+  - name: Martin Lensment
+    url: http://mlensment.github.io/
+  - name: Veiko Miidel
+
+- name: Indefo
+  people:
+  - name: Indrek Juhkam
+    url: http://urgas.eu
+
+- name: INTECH
+  people:
+  - name: Artur Beljajev
+    url: http://artur.intech.ee
+
+- name: Konstruktor
+  url: http://konstruktor.ee
+  people:
+  - name: Madis Väin
+    url: http://konstruktor.ee/blog/
+
+- name: Nuclear
+  people:
+  - name: Alex Revin
+    url: http://www.twitter.com/at0mic
+  - name: Roman Masalov
+
+- name: PerfectLine
+  url: http://www.perfectline.ee
+  people:
+  - name: Tarmo Lehtpuu
+    url: https://github.com/tarmolehtpuu
+  - name: Tanel Suurhans
+    url: https://github.com/tanelsuurhans
+
+- name: Soluvi
+  url: http://soluvi.com
+  people:
+  - name: Erkki Eilonen
+    url: https://github.com/erkki
+  - name: Mart Karu
+  - name: Kaido Treial
+  - name: Tarmo Tänav
+    url: https://github.com/tarmo
+  - name: Aivar Raudsepp
+  - name: Andrei Gorin
+
+- name: Taevas
+  url: http://taevas.ee
+  people:
+  - name: Mika Tuupola
+    url: http://www.appelsiini.net/
+  - name: Dmitri Smirnov
+    url: http://www.dmitri.me/
+
+- name: Wisesoft
+  url: http://wisesoft.ee
+  people:
+  - name: Tarmo Talu
+
+- name: Ruby Alumns
+  people:
+  - name: Tõnis Märtmaa
