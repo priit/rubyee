@@ -53,8 +53,6 @@
   - name: Janno Siilbek
     url: http://www.linkedin.com/in/jannosiilbek
   - name: Murdho Savila
-  - name: Stanislav Gorski
-    url: https://github.com/badmanski
   - name: Heidi Taperson
   - name: Andres Ivanov
   - name: David Ochoa
@@ -66,11 +64,13 @@
   - name: Laas Toom
     url: http://blog.laaz.org
   - name: Ragnar Vutt
-- name: Folkia AS Eesti filiaal
+- name: Folkefinans AS Eesti filiaal
   url: https://www.monetti.ee/
   people:
   - name: Mihhail Sidorin
     url: http://www.linkedin.com/in/mihhailsidorin
+  - name: Stanislav Gorski
+    url: https://github.com/badmanski
 - name: Fraktal
   url: http://fraktal.ee
   people:
