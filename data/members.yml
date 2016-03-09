@@ -47,17 +47,6 @@
   people:
   - name: Anton Kuzmin
 
-- name: Desk Rock
-  url: http://deskrock.ee
-  people:
-  - name: Janno Siilbek
-    url: http://www.linkedin.com/in/jannosiilbek
-  - name: Murdho Savila
-  - name: Heidi Taperson
-  - name: Andres Ivanov
-  - name: David Ochoa
-  - name: Mai-Liis Hütt
-
 - name: EENet
   url: http://www.eenet.ee
   people:
@@ -66,7 +55,7 @@
   - name: Ragnar Vutt
   - name: Andres Ehrenpreis
     url: https://ee.linkedin.com/in/andres-ehrenpreis-552659b5
-    
+
 - name: Folkefinans AS Eesti filiaal
   url: https://www.monetti.ee/
   people:
@@ -106,6 +95,24 @@
   - name: Martin Lensment
     url: http://mlensment.github.io/
   - name: Veiko Miidel
+
+- name: Inbank AS
+  url: https://www.inbank.ee/
+  people:
+    - name: Janno Siilbek
+      url: https://github.com/jannosiilbek
+    - name: Murdho Savila
+      url: https://github.com/murdho
+    - name: David Ochoa
+      url: https://github.com/davidochoa
+    - name: Andres Ivanov
+      url: https://andres.wtf
+    - name: Artem Pakk
+      url: https://github.com/defeed
+    - name: Natalia Bakos
+      url: https://github.com/kilimandzsaro
+    - name: Janek Šein
+      url: https://github.com/janekshein
 
 - name: Indefo
   people:
@@ -165,7 +172,7 @@
 - name: Ruby Alumns
   people:
   - name: Tõnis Märtmaa
-  
+
 - name: Webauto
   url: http://www.webauto.ee
   people:
