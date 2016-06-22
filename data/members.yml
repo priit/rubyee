@@ -30,8 +30,6 @@
   url: http://benuevo.com
   people:
   - name: Oleg Shurõgin
-  - name: Vjatseslav Gedrovits
-    url: https://github.com/Gedrovits
 
 - name: Cannedapps
   url: http://cannedapps.com
@@ -135,6 +133,13 @@
   - name: Alex Revin
     url: http://www.twitter.com/at0mic
   - name: Roman Masalov
+
+- name: Malwarebytes Estonia
+  url: https://www.malwarebytes.com/
+  people:
+  - name: Maksim Novikov
+  - name: Vjatseslav Gedrovits
+    url: https://github.com/Gedrovits
 
 - name: PerfectLine
   url: http://www.perfectline.ee
