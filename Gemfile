@@ -13,5 +13,5 @@ gem 'middleman-livereload', '3.4.2'
 gem 'rb-inotify', '0.9.5'
 
 group :development do
-  gem 'capistrano', '3.1.0'
+    gem 'mina', '0.3.8'
 end
