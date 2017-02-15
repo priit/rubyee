@@ -1,12 +1,10 @@
 ---
 - name: Apprise
-  url: http://apprise.eu
   people:
   - name: Tanel Lebedev
     url: http://twitter.com/_tanel
 
 - name: Baltic IT Solutions
-  url: http://bits.ee
   people:
   - name: Zahhar Kirillov
     url: http://www.twitter.com/bits_ee
@@ -32,10 +30,8 @@
   - name: Oleg Shurõgin
 
 - name: Cannedapps
-  url: http://cannedapps.com
   people:
   - name: Kevin Valdek
-    url: http://www.kevinvaldek.com
   - name: Anton Narusberg
     url: http://www.twitter.com/antonnarusberg
   - name: Kenneth Valdek
@@ -79,7 +75,6 @@
     url: http://www.davidverhasselt.com
 
 - name: Gravitational Wave
-  url: http://wave.ee
   people:
   - name: Margus Pärt
 
@@ -90,7 +85,6 @@
     url: https://twitter.com/priit
   - name: Jüri Punnar
   - name: Andres Keskküla
-    url: https://github.com/kurjam
   - name: Martin Lensment
     url: http://mlensment.github.io/
   - name: Veiko Miidel
@@ -116,18 +110,15 @@
 - name: Indefo
   people:
   - name: Indrek Juhkam
-    url: http://urgas.eu
 
 - name: INTECH
   people:
   - name: Artur Beljajev
-    url: http://artur.intech.ee
 
 - name: Konstruktor
   url: http://konstruktor.ee
   people:
   - name: Madis Väin
-    url: http://konstruktor.ee/blog/
 
 - name: Nuclear
   people:
@@ -168,10 +159,8 @@
   - name: Mika Tuupola
     url: http://www.appelsiini.net/
   - name: Dmitri Smirnov
-    url: http://www.dmitri.me/
 
 - name: Wisesoft
-  url: http://wisesoft.ee
   people:
   - name: Tarmo Talu
 
