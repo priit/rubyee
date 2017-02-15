@@ -86,10 +86,11 @@
 - name: GiTLAB
   url: http://gitlab.eu
   people:
-  - name: Andres Keskküla
-    url: https://github.com/kurjam
   - name: Priit Tark
     url: https://twitter.com/priit
+  - name: Jüri Punnar
+  - name: Andres Keskküla
+    url: https://github.com/kurjam
   - name: Martin Lensment
     url: http://mlensment.github.io/
   - name: Veiko Miidel
