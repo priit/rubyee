@@ -1,7 +1,9 @@
-require 'mina/bundler'
 require 'mina/git'
-require 'mina/rbenv'  # for rbenv support. (http://rbenv.org)
+# require 'mina/bundler'
+require 'mina/rbenv'  # for rbenv support. (https://rbenv.org)
+require 'mina/deploy'
 
+set :application_name, 'rubyee'
 set :domain, 'gl'
 set :deploy_to, '$HOME/rubyee'
 set :repository, 'https://github.com/priit/rubyee.git'
@@ -11,33 +13,20 @@ task :pr do
   # honor pr command
 end
 
-# This task is the environment that is loaded for most commands, such as
-# `mina deploy` or `mina rake`.
-task :environment do
+task :remote_environment do
   invoke :'rbenv:load'
 end
 
-task setup: :environment do
+task setup: :remote_environment do
   deploy do
     invoke :'git:clone'
-    queue! 'gem install bundler'
-    invoke :'bundle:install'
   end
 end
 
 desc "Deploys the current version to the server."
-task deploy: :environment do
+task deploy: :remote_environment do
   deploy do
+    # bundle exec middleman build
     invoke :'git:clone'
-    invoke :'bundle:install'
-    invoke :'middleman:build'
   end
-end
-
-task :'middleman:build' do
-  command %{
-    echo "-----> Building site"
-    #{echo_cmd %[bundle exec middleman build]}
-    #{echo_cmd %[mv build public]}
-  }
 end

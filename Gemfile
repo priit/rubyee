@@ -5,8 +5,8 @@ gem 'middleman-more', '3.1.6'
 gem 'middleman-minify-html', '3.4.0'
 gem 'haml', '4.0.6'
 
-gem 'libv8', '3.16.14.7'
-gem 'therubyracer', '0.12.2'
+gem 'libv8', '3.16.14.15'
+gem 'therubyracer', '0.12.3'
 
 # Live-reloading plugin
 gem 'middleman-livereload', '3.4.2'
