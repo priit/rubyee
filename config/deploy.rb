@@ -35,7 +35,7 @@ task deploy: :environment do
 end
 
 task :'middleman:build' do
-  queue %{
+  command %{
     echo "-----> Building site"
     #{echo_cmd %[bundle exec middleman build]}
     #{echo_cmd %[mv build public]}
