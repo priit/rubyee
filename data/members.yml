@@ -11,6 +11,12 @@
   - name: Andrei Filimonov
   - name: Dmitri Semirenko
     url: http://www.twitter.com/semirenko
+    
+- name: BankWiser
+  url: https://bankwiser.co
+  people:
+  - name: Sergei Tsõganov
+    url: https://github.com/maricavor
 
 - name: Bear Metal
   url: https://bearmetal.eu
@@ -168,9 +174,3 @@
 - name: Ruby Alumns
   people:
   - name: Tõnis Märtmaa
-
-- name: Webauto
-  url: http://www.webauto.ee
-  people:
-  - name: Sergei Tsõganov
-    url: https://github.com/maricavor
