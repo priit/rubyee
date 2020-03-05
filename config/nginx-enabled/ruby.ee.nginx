@@ -1,0 +1,47 @@
+server {
+  server_name ruby.ee www.ruby.ee;
+  listen 80;
+  rewrite ^ https://ruby.ee$request_uri permanent;
+}
+
+server {
+  server_name www.ruby.ee;
+  rewrite ^ https://ruby.ee$request_uri permanent;
+
+  listen 443 ssl; # managed by Certbot
+  ssl_certificate /etc/letsencrypt/live/crystalest.ee/fullchain.pem; # managed by Certbot
+  ssl_certificate_key /etc/letsencrypt/live/crystalest.ee/privkey.pem; # managed by Certbot
+  include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+  ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+}
+
+server {
+  server_name ruby.ee;
+
+  listen 443 ssl; # managed by Certbot
+  ssl_certificate /etc/letsencrypt/live/crystalest.ee/fullchain.pem; # managed by Certbot
+  ssl_certificate_key /etc/letsencrypt/live/crystalest.ee/privkey.pem; # managed by Certbot
+  include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+  ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+  access_log  /var/log/nginx/ruby.ee.access.log;
+  root /home/gitlab/rubyee/current/build;
+  
+  location /posts.rss {
+    rewrite ^ http://groups.google.com/group/rubyee/feed/atom_v1_0_msgs.xml?num=50;
+  }
+
+  location / {
+    try_files $uri $uri.html $uri/index.html;
+  }
+  
+  error_page 500 502 503 504  /50x.html;
+  location = /50x.html {
+    root /var/www/nginx-default;
+  }
+
+  #apache's document root
+  location ~ /\.ht {
+    deny all;
+  }
+}
