@@ -1,25 +1,20 @@
 ---
-- name: Apprise
-  people:
-  - name: Tanel Lebedev
-    url: http://twitter.com/_tanel
-
-- name: Baltic IT Solutions
-  people:
-  - name: Zahhar Kirillov
-    url: http://www.twitter.com/bits_ee
-  - name: Andrei Filimonov
-  - name: Dmitri Semirenko
-    url: http://www.twitter.com/semirenko
-    
 - name: BankWiser
   url: https://bankwiser.co
+  company_reg_year: 2019
+  reg_no: 14836742
+  teatmik_url: https://www.teatmik.ee/en/personlegal/14836742-Bankwiser-O%C3%9C
+  type: Consulting
   people:
   - name: Sergei Tsõganov
     url: https://github.com/maricavor
 
 - name: Bear Metal
   url: https://bearmetal.eu
+  company_reg_year: 2013
+  reg_no: 12435393
+  teatmik_url: https://www.teatmik.ee/en/personlegal/12435393-Bear-Metal-O%C3%9C
+  type: Consulting
   people:
   - name: Erkki Eilonen
     url: https://github.com/erkki
@@ -32,22 +27,28 @@
 
 - name: Benuevo
   url: http://benuevo.com
+  company_reg_year: 2013
+  reg_no: 12312609
+  teatmik_url: https://www.teatmik.ee/en/personlegal/12312609-BENUEVO-O%C3%9C
+  type: Consulting
   people:
   - name: Oleg Shurõgin
 
-- name: Cannedapps
+- name: Domify
+  url: http://domify.io
+  company_reg_year: 2010
+  reg_no: 11878214
+  teatmik_url: https://www.teatmik.ee/en/personlegal/11878214-Domify-O%C3%9C
+  type: Consulting
   people:
-  - name: Kevin Valdek
-  - name: Anton Narusberg
-    url: http://www.twitter.com/antonnarusberg
-  - name: Kenneth Valdek
-
-- name: Clean Code
-  url: http://cleancode.co
-  people:
-  - name: Anton Kuzmin
+  - name: Priit Tark
+    url: https://twitter.com/priit
 
 - name: EveryPay AS
+  company_reg_year: 2012
+  reg_no: 12280690
+  teatmik_url: https://www.teatmik.ee/en/personlegal/12280690-EveryPay-AS
+  type: Service
   people:
   - name: Laas Toom
     url: http://commitblog.eu
@@ -57,25 +58,34 @@
 
 - name: Folkefinans AS Eesti filiaal
   url: https://www.monetti.ee/
+  company_reg_year: 2010
+  reg_no: 11913301
+  teatmik_url: https://www.teatmik.ee/en/personlegal/11913301-Folkefinans-AS-Eesti-filiaal
+  type: Service
   people:
   - name: Stanislav Gorski
     url: https://github.com/badmanski
     
 - name: Fraktal
   url: http://fraktal.ee
+  company_reg_year: 2007
+  reg_no: 11437987
+  teatmik_url: https://www.teatmik.ee/en/personlegal/11437987-Fraktal-O%C3%9C
+  type: consulting
   people:
   - name: Priit Haamer
-    url: http://www.priithaamer.com/blog
   - name: Tanel Jakobsoo
     url: https://github.com/tanelj
   - name: Mikk Pristavka
     url: https://github.com/mikkpr
 
-- name: SupplierPlus
-  url: https://supplierplus.com/
+- name: Gravitational Wave
+  company_reg_year: 2013
+  reg_no: 12475903
+  teatmik_url: https://www.teatmik.ee/en/personlegal/12475903-Gravitational-Wave-O%C3%9C
+  type: consulting
   people:
-  - name: Mihhail Sidorin
-    url: http://www.linkedin.com/in/mihhailsidorin
+  - name: Margus Pärt
 
 - name: Freelancers
   people:
@@ -85,24 +95,19 @@
     url: http://www.davidverhasselt.com
   - name: Nagy Salem
     url: https://nagy.ee/
-
-- name: Gravitational Wave
-  people:
-  - name: Margus Pärt
-
-- name: GiTLAB
-  url: http://gitlab.eu
-  people:
-  - name: Priit Tark
-    url: https://twitter.com/priit
-  - name: Jüri Punnar
-  - name: Vadim Pahomov
-  - name: Martin Lensment
-    url: http://mlensment.github.io/
-  - name: Veiko Miidel
+  - name: Alex Revin
+    url: http://www.twitter.com/at0mic
+  - name: Roman Masalov
+  - name: Mika Tuupola
+    url: http://www.appelsiini.net/
+  - name: Dmitri Smirnov
 
 - name: Inbank AS
   url: https://www.inbank.ee/
+  company_reg_year: 2010
+  reg_no: 12001988
+  teatmik_url: https://www.teatmik.ee/en/personlegal/12001988-AS-Inbank
+  type: service
   people:
     - name: Janno Siilbek
       url: https://github.com/jannosiilbek
@@ -120,26 +125,27 @@
       url: https://github.com/janekshein
 
 - name: Indefo
+  company_reg_year: 2006
+  reg_no: 11287453
+  teatmik_url: https://www.teatmik.ee/en/personlegal/11287453-O%C3%9C-INDEFO
+  type: consulting
   people:
   - name: Indrek Juhkam
 
 - name: INTECH
+  company_reg_year: 2006
+  reg_no: 11280942
+  teatmik_url: https://www.teatmik.ee/en/personlegal/11280942-Osa%C3%BChing-Intech
+  type: consulting
   people:
   - name: Artur Beljajev
 
-- name: Konstruktor
-  url: http://konstruktor.ee
-  people:
-  - name: Madis Väin
-
-- name: Nuclear
-  people:
-  - name: Alex Revin
-    url: http://www.twitter.com/at0mic
-  - name: Roman Masalov
-
 - name: Malwarebytes Estonia
   url: https://www.malwarebytes.com/
+  company_reg_year: 2014
+  reg_no: 12755442
+  teatmik_url: https://www.teatmik.ee/en/personlegal/12755442-Malwarebytes-Estonia-O%C3%9C
+  type: service
   people:
   - name: Maksim Novikov
   - name: Vjatseslav Gedrovits
@@ -147,6 +153,10 @@
 
 - name: PerfectLine
   url: http://www.perfectline.ee
+  company_reg_year: 2004
+  reg_no: 11011679
+  teatmik_url: https://www.teatmik.ee/en/personlegal/11011679-O%C3%9C-PerfectLine
+  type: consulting
   people:
   - name: Tarmo Lehtpuu
     url: https://github.com/tarmolehtpuu
@@ -155,6 +165,10 @@
 
 - name: Soluvi
   url: http://soluvi.com
+  company_reg_year: 2010
+  reg_no: 11905135
+  teatmik_url: https://www.teatmik.ee/en/personlegal/11905135-Soluvi-O%C3%9C
+  type: consulting
   people:
   - name: Erkki Eilonen
     url: https://github.com/erkki
@@ -165,17 +179,17 @@
   - name: Aivar Raudsepp
   - name: Andrei Gorin
 
-- name: Taevas
-  url: http://taevas.ee
+- name: SupplierPlus
+  url: https://supplierplus.com/
+  type: service
   people:
-  - name: Mika Tuupola
-    url: http://www.appelsiini.net/
-  - name: Dmitri Smirnov
+  - name: Mihhail Sidorin
+    url: http://www.linkedin.com/in/mihhailsidorin
 
 - name: Wisesoft
+  company_reg_year: 2000
+  reg_no: 10671741
+  teatmik_url: https://www.teatmik.ee/en/personlegal/10671741-Osa%C3%BChing-WiseSoft
+  type: consulting
   people:
   - name: Tarmo Talu
-
-- name: Ruby Alumns
-  people:
-  - name: Tõnis Märtmaa

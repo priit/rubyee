@@ -3,6 +3,14 @@
     %li
       %h2
         = text_or_link_to(company.name, company.url)
+        %span
+          %small
+            = '-'
+            = "est #{company.company_reg_year}"
+            = '|'
+            = "Nº #{company.reg_no}"
+            = '|'
+            = text_or_link_to('Teatmik', company.teatmik_url)
       %ul
         - company.people.each do |person|
           %li
