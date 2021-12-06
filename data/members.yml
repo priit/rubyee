@@ -79,6 +79,16 @@
   - name: Mikk Pristavka
     url: https://github.com/mikkpr
 
+- name: GrabCAD
+  url: https://grabcad.com
+  company_reg_year: 2010
+  reg_no: 11944075
+  teatmik_url: https://www.teatmik.ee/en/personlegal/11944075-GrabCAD-O%C3%9C
+  type: service
+  people:
+    - name: Yasin Aydin
+      url: https://yasinaydin.net/
+
 - name: Gravitational Wave
   company_reg_year: 2013
   reg_no: 12475903
