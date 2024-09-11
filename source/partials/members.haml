@@ -1,6 +1,6 @@
 .row
   .col-md-4
-    %h2 Aktiivsed arendusfirmad
+    %h2.text-nowrap Active consulting
     - (data.members['active-consulting'] || []).sort_by { |company| company.name }.each do |company|
       %ul
         %li
@@ -17,7 +17,7 @@
                   \-
                   = text_or_link_to(person['name'], person['url'])
 
-    %h2 Arendusfirmad
+    %h2 Consulting
     - (data.members['consulting'] || []).sort_by { |company| company.company_reg_year }.each do |company|
       %ul
         %li
@@ -35,7 +35,7 @@
                   = text_or_link_to(person['name'], person['url'])
 
   .col-md-4
-    %h2 Teenusfirmad
+    %h2 Services
     - (data.members['service'] || []).sort_by { |company| company.name }.each do |company|
       %ul
         %li
@@ -52,14 +52,14 @@
                   \-
                   = text_or_link_to(person['name'], person['url'])
 
-  .col-md-4
-    %h2 Vabakutselised
+  .col-md-2
+    %h2 Freelancers
     %ul
       - (data.members['freelancers'] || []).sort_by {|f| f.name }.each do |freelancer|
         %li.text-nowrap
           = text_or_link_to(freelancer['name'], freelancer['url'])
 
-    %h2 Liikmed
+    %h2 Members
     %ul
       - (data.members['members'] || []).sort_by {|f| f.name }.each do |freelancer|
         %li.text-nowrap

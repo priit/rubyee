@@ -2,30 +2,32 @@
 %html{:lang => 'en'}
   %head
     %meta{:charset => "UTF-8"}
+    %meta{name: 'viewport', content: 'width=device-width, initial-scale=1'}
+
     %title= current_page.data.title.nil? ? 'Rubyest' : "#{current_page.data.title} • Rubyest"
     %meta{:name => 'description', :content => 'We are Ruby User Group in Estonia.'}
 
+    = partial 'partials/bootstrap.html'
     = stylesheet_link_tag 'fonts'
     = stylesheet_link_tag 'app'
 
   %body
     #topline
-    #container
-      #header
-        #lang-nav
-          = link_to 'In Estonian', '/'
-        #nav
-          = link_to 'Members', '/members'
-          = link_to 'About', '/about'
-        #logo
-          = link_to 'Rubyest', '/en', :id => :rubyest
+    %main.px-4
+      .container.custom-container
+        #lang-nav.row
+          .col-12= link_to 'In Estonian', '/'
+        #header.row
+          #logo.col-6
+            = link_to 'Rubyest', '/en', id: :rubyest
+          #nav.col-6.d-flex.align-items-end.justify-content-end
+            = link_to 'Members', '/members'
+            = link_to 'About', '/about'
 
-      #main
-        #content
-          = yield
+        #main
+          #content
+            = yield
 
-      #footer
-        %p
-          powered by <a href='/info'>Rubyest</a>
-
-
+        #footer
+          %p
+            powered by <a href='/info'>Rubyest</a>

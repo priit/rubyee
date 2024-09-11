@@ -10,7 +10,7 @@ $headerfont: Museo500, Helvetica, Arial, sans-serif
 $rsscolor: #e67e2e
 
 body
-  font: normal 12px / 1.6em Helvetica, Arial, sans-serif
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
   color: #222
   margin: 0
   padding: 0
@@ -28,6 +28,16 @@ ul
   padding: 0
   li
     list-style: none
+
+h2
+  margin-top: 20px
+
+h3.list
+  font-size: 18px
+  margin-top: 24px
+  margin-bottom: 0px
+
+
 
 
 /*** Layout ***
@@ -58,7 +68,7 @@ ul
 #nav
   float: right
   font-family: $headerfont
-  font-size: 14px
+  font-size: 16px
   font-weight: 500
   margin-top: 7px
   a
@@ -84,7 +94,7 @@ ul
   padding: 10px 0 30px
   p
     color: $lightgrey
-    font-size: 11px
+    font-size: 12px
     a
       font-weight: bold
       text-decoration: none
@@ -117,36 +127,33 @@ ul
 #top
   background-color: $blue
   color: $darkgrey
-  padding: 20px
   margin-top: 20px
   -moz-border-radius: 5px
   -webkit-border-radius: 5px
+  min-height: 80px
+  padding: 30px 20px 30px 20px
 
   h1
     color: rgba(255,255,255, 0.9)
     font-family: $headerfont
     font-size: 32px
     line-height: 34px
-    margin: 0
-    padding: 0
+    max-width: 380px
 
   &.front
     background: -moz-linear-gradient(center top, $blue 0%, $blue 90%, rgb(157, 209, 188) 100%)
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $blue), color-stop(90%, $blue), color-stop(100%, rgb(157, 209, 188)))
 
     h1
-      float: left
       font-size: 48px
       line-height: 50px
-      width: 350px
 
   p
     line-height: 25px
-    margin-left: 360px
 
 #news
   background: $lightblue
-  padding: 10px 20px
+  padding: 60px 20px
   margin-top: -5px
   -webkit-border-radius: 5px
 
@@ -155,12 +162,12 @@ ul
 
 .channels
   color: #666
-  font-size: 11px
+  font-size: 12px
 
   h3
     a
       color: #222
-      font-size: 12px
+      font-size: 14px
       text-decoration: none
       &:hover
         color: $green
@@ -201,13 +208,11 @@ ul
     &:hover
       text-decoration: underline
 
-.inimesed
-  a
-    text-decoration: none
-
 #lang-nav
   float: right
   margin-top: -50px
   a
     text-decoration: none
 
+.custom-container
+  max-width: 1000px

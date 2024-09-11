@@ -1,29 +1,32 @@
 !!! 5
-%html{:lang => 'et'}
+%html{lang: 'et'}
   %head
-    %meta{:charset => "UTF-8"}
-    %title= current_page.data.title.nil? ? 'Rubyest' : "#{current_page.data.title} • Rubyest"
-    %meta{:name => 'description', :content => 'Oleme Ruby programmeerimiskeele kasutajad ja entusiastid Eestis.'}
+    %meta{charset: "UTF-8"}
+    %meta{name: 'viewport', content: 'width=device-width, initial-scale=1'}
 
+    %title= current_page.data.title.nil? ? 'Rubyest' : "#{current_page.data.title} • Rubyest"
+    %meta{name: 'description', content: 'Oleme Ruby programmeerimiskeele kasutajad ja entusiastid Eestis.'}
+
+    = partial 'partials/bootstrap.html'
     = stylesheet_link_tag 'fonts'
     = stylesheet_link_tag 'app'
   %body
     #topline
-    #container
-      #header
-        #lang-nav
-          = link_to 'In English', '/en'
-        #nav
-          = link_to 'Inimesed', '/inimesed'
-          = link_to 'Info', '/info'
-        #logo
-          = link_to 'Rubyest', '/', :id => :rubyest
+    %main.px-4
+      .container.custom-container
+        #lang-nav.row
+          .col-12= link_to 'In English', '/en'
+        #header.row
+          #logo.col-6
+            = link_to 'Rubyest', '/', id: :rubyest
+          #nav.col-6.d-flex.align-items-end.justify-content-end
+            = link_to 'Inimesed', '/inimesed'
+            = link_to 'Info', '/info'
 
+        #main
+          #content
+            = yield
 
-      #main
-        #content
-          = yield
-
-      #footer
-        %p
-          powered by <a href='/info'>Rubyest</a>
+        #footer
+          %p
+            powered by <a href='/info'>Rubyest</a>

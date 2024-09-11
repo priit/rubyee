@@ -2,54 +2,63 @@
 <html lang='en'>
 <head>
 <meta charset='UTF-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
 <title>Rubyest</title>
 <meta content='We are Ruby User Group in Estonia.' name='description'>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 <link href="/stylesheets/fonts.css" rel="stylesheet" />
 <link href="/stylesheets/app.css" rel="stylesheet" />
 </head>
 <body>
 <div id='topline'></div>
-<div id='container'>
-<div id='header'>
-<div id='lang-nav'>
-<a href="/">In Estonian</a>
+<main class='px-4'>
+<div class='container custom-container'>
+<div class='row' id='lang-nav'>
+<div class='col-12'><a href="/">In Estonian</a></div>
 </div>
-<div id='nav'>
+<div class='row' id='header'>
+<div class='col-6' id='logo'>
+<a href="/en" id="rubyest">Rubyest</a>
+</div>
+<div class='col-6 d-flex align-items-end justify-content-end' id='nav'>
 <a href="/members">Members</a>
 <a href="/about">About</a>
-</div>
-<div id='logo'>
-<a href="/en" id="rubyest">Rubyest</a>
 </div>
 </div>
 <div id='main'>
 <div id='content'>
 <div class='clearfix'></div>
-<div class='front' id='top'>
+<div class='front row py-5' id='top'>
+<div class='col-md-7 d-md-flex justify-content-center align-items-center p-5'>
 <h1>Estonia Ruby User Group</h1>
+</div>
+<div class='col-md-4 d-md-flex text-md-end justify-content-end align-items-center p-5'>
 <p>
-We are <a href='http://ruby-lang.org'><b>Ruby programming language</b></a> users and
+We are <a href='http://ruby-lang.org' class='text-nowrap'><b>Ruby programming language</b></a><br> users and
 enthusiasts in Estonia.
 </p>
 </div>
+</div>
 <div class='clearfix'></div>
-<div id='news'>
+<div class='row' id='news'>
+<div class='col-12'>
 <p>
-Ruby is modren programming language. Our goal is to help
-people even more to engage and exchange with ruby technology and knowledge.
-Estonia ruby programmers are usually small teams but doing big things. Every Estonian
-internet user is using our created ruby backed services daily.
+The Ruby programming language emphasizes developer
+<b>productivity and satisfaction.</b>
+Our members achieve great results in small teams, creating solutions used by every Estonian citizen and beyond.
 </p>
-<h2>We are open</h2>
 <p>
-You are welcome to join with our usergroup regardless the level of ruby you have at the moment.
+New people are always welcome, whether you're a beginner or a professional.
 <br>
-You can start engaging by jonining with our
-<a href="http://groups.google.com/group/rubyee">official email list.</a>
-Welcome!
+Take the first step and join our
+<a href="http://groups.google.com/group/rubyee">mailing list!</a>
 </p>
 </div>
-<div class='channels'>
+</div>
+<div class='channels row'>
+<div class='col-12'>
 <ul>
 <li>
 <h3>
@@ -69,6 +78,7 @@ Welcome!
 <div class='clearfix'></div>
 
 </div>
+</div>
 
 </div>
 </div>
@@ -78,5 +88,6 @@ powered by <a href='/info'>Rubyest</a>
 </p>
 </div>
 </div>
+</main>
 </body>
 </html>

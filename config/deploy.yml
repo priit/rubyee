@@ -1,0 +1,3 @@
+service: rubyee
+image: apps/rubyee
+servers:

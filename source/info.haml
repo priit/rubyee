@@ -3,42 +3,34 @@
     Kuidas Rubyest toimib?
 
 .mar-20
-  %h2 Tänu ühisele koostööle
-  %ul
-    %li
-      = link_to 'Fraktal', 'http://www.fraktal.ee'
-      vastutab visuaalse disaini eest
-    %li
-      = link_to 'Domify', 'http://domify.io'
-      majandab ja hostib
-    %li
-      = link_to 'Soluvi', 'http://soluvi.com'
-      sponsoreerib ruby.ee domeeniga
+  .row
+    .col-12
+      %h2 Ühine koostöö
+      %ul
+        %li
+          = link_to 'Domify', 'http://domify.io'
+          haldab, majandab ja hostib
+        %li
+          = link_to 'Fraktal', 'http://www.fraktal.ee'
+          lõi visuaalse disaini
+        %li
+          = link_to 'Soluvi', 'http://soluvi.com'
+          sponsoreerib ruby.ee domeeniga
 
-  %h2 Tänu tööriistade tegijatele
-  %ul
-    %li
-      = link_to 'linux', 'http://linux.com'
-      \- ökosüsteem
-    %li 
-      = link_to 'nginx', 'http://wiki.nginx.org/'
-      \- server
-    %li
-      = link_to 'middleman', 'https://rubygems.org/gems/middleman'
-      \- staatiliste lehtede generaator
+      %h2 Kuidas lehekülge uuendada?
 
-  %h2 Kuidas lehekülge uuendada?
-  %p
-    Kogu lehe sisu asub githubi <a href='http://github.com/priit/rubyee'>rubyee</a>
-    hoidlas. Loo kloon ja salvesta täiendused ning teavita githubis uuendustest.
-  %p 
-    Lehe haldamiseks kasutame hetkel ruby <a href='https://rubygems.org/gems/middleman/'>Middleman</a>
-    generaatorit. Seega nii sisu kui ka visuaalse disaini täienduste puhul on git clone sinu sõber.
+      %p
+        Kogu lehe sisu asub GitHubi hoidlas
+        = link_to 'rubyee', 'http://github.com/priit/rubyee'
+        Loo kloon, salvesta täiendused ja teavita GitHubis uuendustest.
+      %p 
+        Lehe haldamiseks kasutame Ruby 
+        = link_to 'Middleman', 'https://rubygems.org/gems/middleman/'
+        generaatorit. Seega nii sisu kui ka visuaalse disaini täienduste puhul on 
+        git clone sinu sõber.
 
-  %p 
-    Jätame endale õiguse iga teatud aja tagant teha liikmete nimekirja puhastusi ja uuendusi ilma kirjaliku teavituseta.
-    
-  %p 
-    Ruby.ee on avatud ka suurematale muudatustele, näiteks oma foorum jne. Ainuke
-    tingimus, et kes käib idee välja, peab leidma jõudu ja tahet seda arendada-hallata, 
-    sest paljud meist on tööga väga hõivatud.
+      %p 
+        Jätame endale õiguse regulaarselt liikmete nimekirja puhastada ja uuendada ilma kirjaliku teavituseta.
+        
+      %p 
+        Ruby.ee on avatud ka suurematele muudatustele, näiteks oma foorumi loomisele. Ainuke tingimus on, et kes idee välja käib, leiab ka jõudu ja tahet seda arendada ja hallata, sest paljud meist on tööga väga hõivatud.

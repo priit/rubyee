@@ -4,30 +4,28 @@ layout: layouts/en
 
 .clearfix
 
-#top.front
-  %h1 Estonia Ruby User Group
-
-  %p
-    We are <a href='http://ruby-lang.org'><b>Ruby programming language</b></a> users and
-    enthusiasts in Estonia.
+#top.front.row.py-5
+  .col-md-7.d-md-flex.justify-content-center.align-items-center.p-5
+    %h1 Estonia Ruby User Group
+  .col-md-4.d-md-flex.text-md-end.justify-content-end.align-items-center.p-5
+    %p
+      We are <a href='http://ruby-lang.org' class='text-nowrap'><b>Ruby programming language</b></a><br> users and
+      enthusiasts in Estonia.
 
 .clearfix
 
-#news
-  %p
-    Ruby is modren programming language. Our goal is to help
-    people even more to engage and exchange with ruby technology and knowledge.
+#news.row
+  .col-12
+    %p
+      The Ruby programming language emphasizes developer 
+      %b productivity and satisfaction.
+      Our members achieve great results in small teams, creating solutions used by every Estonian citizen and beyond.
+    %p
+      New people are always welcome, whether you're a beginner or a professional.
+      %br
+      Take the first step and join our 
+      = link_to 'mailing list!', 'http://groups.google.com/group/rubyee'
 
-    Estonia ruby programmers are usually small teams but doing big things. Every Estonian
-    internet user is using our created ruby backed services daily. 
-
-  %h2 We are open
-  %p
-    You are welcome to join with our usergroup regardless the level of ruby you have at the moment.
-    %br
-    You can start engaging by jonining with our
-    = link_to 'official email list.', 'http://groups.google.com/group/rubyee'
-    Welcome!
-
-.channels
-  = partial 'partials/channels'
+.channels.row
+  .col-12
+    = partial 'partials/channels'

@@ -2,54 +2,62 @@
 <html lang='et'>
 <head>
 <meta charset='UTF-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
 <title>Rubyest</title>
 <meta content='Oleme Ruby programmeerimiskeele kasutajad ja entusiastid Eestis.' name='description'>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 <link href="/stylesheets/fonts.css" rel="stylesheet" />
 <link href="/stylesheets/app.css" rel="stylesheet" />
 </head>
 <body>
 <div id='topline'></div>
-<div id='container'>
-<div id='header'>
-<div id='lang-nav'>
-<a href="/en">In English</a>
+<main class='px-4'>
+<div class='container custom-container'>
+<div class='row' id='lang-nav'>
+<div class='col-12'><a href="/en">In English</a></div>
 </div>
-<div id='nav'>
+<div class='row' id='header'>
+<div class='col-6' id='logo'>
+<a href="/" id="rubyest">Rubyest</a>
+</div>
+<div class='col-6 d-flex align-items-end justify-content-end' id='nav'>
 <a href="/inimesed">Inimesed</a>
 <a href="/info">Info</a>
-</div>
-<div id='logo'>
-<a href="/" id="rubyest">Rubyest</a>
 </div>
 </div>
 <div id='main'>
 <div id='content'>
 <div class='clearfix'></div>
-<div class='front' id='top'>
+<div class='front row py-5' id='top'>
+<div class='col-md-7 d-md-flex justify-content-center align-items-center p-5'>
 <h1>Eesti Ruby Arendajad</h1>
+</div>
+<div class='col-md-4 d-md-flex text-md-end justify-content-end align-items-center p-5'>
 <p>
-Oleme <b>Ruby programmeerimiskeele</b> kasutajad ja entusiastid Eestis.
+Oleme <b>Ruby programmeerimiskeele</b> <br> kasutajad ja entusiastid.
 </p>
+</div>
 </div>
 <div class='clearfix'></div>
-<div id='news'>
+<div class='row' id='news'>
+<div class='col-12'>
 <p>
-Ruby on kaasaegne programmeerija tootlikusele ja õnnele pühendunud keel.
-Meie liikmed teevad väikeste meeskondadega suuri asju ning igapäevaselt
-kasutab meie liikmete tulemusi igapäevaselt iga Eesti kodanik, kes interneti kasutab.
-Rubyest eesmärk on aidata kaarsa teadmiste vahetamise ja ruby arengule.
+Ruby programmeerimiskeel rõhutab arendajate
+<b>tootlikkust ja rahulolu.</b>
+Meie liikmed saavutavad väikestes meeskondades suuri tulemusi, luues lahendusi, mida kasutab iga Eesti kodanik ja paljud inimesed välismaal.
 </p>
-<h2>Rubyest on avatud</h2>
 <p>
-Uued inimesed on alati oodatud olenemata kas oled algaja või
-juba profesionaal.
+Uued inimesed on alati oodatud, olenemata sellest, kas oled algaja või professionaal.
 <br>
 Astu esimene samm ja liitu meie
-<a href="http://groups.google.com/group/rubyee">listiga.</a>
-Tere tulemast!
+<a href="http://groups.google.com/group/rubyee">listiga!</a>
 </p>
 </div>
-<div class='channels'>
+</div>
+<div class='channels row'>
+<div class='col-12'>
 <ul>
 <li>
 <h3>
@@ -69,6 +77,7 @@ Tere tulemast!
 <div class='clearfix'></div>
 
 </div>
+</div>
 
 </div>
 </div>
@@ -78,5 +87,6 @@ powered by <a href='/info'>Rubyest</a>
 </p>
 </div>
 </div>
+</main>
 </body>
 </html>
