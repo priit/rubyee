@@ -130,8 +130,13 @@ service:
     teatmik_url: https://www.teatmik.ee/en/personlegal/12280690-EveryPay-AS
     people:
       - name: Laas Toom
-      - name: Andres Ehrenpreis
+        url: https://www.linkedin.com/in/laas-toom/
       - name: Sven Hüsson
+      - name: A. Z.
+      - name: A. P. 
+      - name: T. I.
+      - name: K. T.
+      - name: Y. S.
 
   - name: Folkefinans Eesti filiaal
     url: https://www.monetti.ee/
