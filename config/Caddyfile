@@ -1,4 +1,4 @@
 :3000
 
-root * /app
+root * /app/build
 file_server
