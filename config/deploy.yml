@@ -1,3 +1,1 @@
-service: rubyee
-image: apps/rubyee
-servers:
+<%= require '~/.ssh/kamal/default.rb'; default %>
