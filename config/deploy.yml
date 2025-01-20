@@ -1,1 +1,2 @@
-<%= require '~/.ssh/kamal/default.rb'; default %>
+<% require '~/.ssh/kamal/default.rb' %>
+<%= default domain: 'ruby.ee', server: 'mini' %>
