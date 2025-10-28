@@ -115,6 +115,13 @@ consulting:
     people:
       - name: Indrek Juhkam
 
+  - name: Codeware
+    company_reg_year: 2023
+    reg_no: 16643846
+    teatmik_url: https://www.teatmik.ee/en/personlegal/16643846-Codeware-O%C3%9C
+    people:
+      - name: Sergei Tsõganov
+
 
 service:
   - name: BankWiser
