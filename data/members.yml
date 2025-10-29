@@ -9,7 +9,6 @@ members:
     url: http://www.appelsiini.net/
   - name: Roman Masalov
   - name: Nagy Salem
-    url: https://nagy.ee/
   - name: Andres Ehrenpreis
 
 freelancers:
@@ -76,7 +75,6 @@ active-consulting:
 
 consulting:
   - name: Fraktal
-    url: http://fraktal.ee
     company_reg_year: 2007
     reg_no: 11437987
     teatmik_url: https://www.teatmik.ee/en/personlegal/11437987-Fraktal-O%C3%9C
@@ -86,6 +84,7 @@ consulting:
         url: https://github.com/tanelj
       - name: Mikk Pristavka
         url: https://github.com/mikkpr
+
   - name: INTECH
     company_reg_year: 2006
     reg_no: 11280942
